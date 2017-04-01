@@ -57,7 +57,7 @@ Player.prototype.update = function() {
 
         document.getElementById('msg').innerHTML = "You win";
         $('#msg').show();
-        player.reset();
+        this.reset();
     }
     if (this.y > 380) {
         this.y = 380;
